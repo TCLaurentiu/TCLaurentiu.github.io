@@ -6,7 +6,7 @@ let _q = (e)=>{
 	return document.querySelectorAll(e)
 }
 
-let kiki_day = new Date("Dec 22, 2022 22:12:30").getTime()
+let kiki_day = new Date("Dec 23, 2022 00:00:00").getTime()
 let _hours = q(".hours"), _minutes = q(".minutes"), _seconds = q(".seconds")
 let _message = q(".birthday_message")
 
